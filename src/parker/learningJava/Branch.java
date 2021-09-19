@@ -1,7 +1,11 @@
 package parker.learningJava;
 
+
 import java.util.ArrayList;
 
+/**
+ * Created by dev on 4/09/15.
+ */
 public class Branch {
     private String name;
     private ArrayList<Customer> customers;
@@ -13,6 +17,10 @@ public class Branch {
 
     public String getName() {
         return name;
+    }
+
+    public ArrayList<Customer> getCustomers() {
+        return customers;
     }
 
     public boolean newCustomer(String customerName, double initialAmount) {
@@ -45,4 +53,3 @@ public class Branch {
         return null;
     }
 }
-
