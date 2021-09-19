@@ -1,7 +1,7 @@
 package parker.learningJava;
 
 import java.util.ArrayList;
-//checking to see if this gets counted as a change.
+
 public class Customer {
     private String name;
     private ArrayList<Double> transactions;
